@@ -1,0 +1,59 @@
+coding
+--html and css
+--javascript
+
+syntax and principles
+--statements
+--indentation
+--scope
+--threading
+
+variables
+--store information in a reserved space of memory
+--use var `name` to initialize
+--string, integer, float, array, hash
+--basic use of each
+--useful functions (parseInt(), parseFloat(), String())
+
+operands
+--set =
+--equal to ==
+--greater than, less than, equal >, <, >=, <=
+--add, subtract, multiply, divide +, -, *, /
+--Math library http://www.w3schools.com/js/js_math.asp
+--be careful with javscript mathematics!
+
+logic gates
+--if, else if, else
+--switch
+
+iterations
+--for
+--for/in
+--forEach
+--while
+--break (skip current iteration and exit)/continue (skip current iteration and continue loop)
+
+timing
+--timeouts
+--intervals
+
+abstraction
+--functions
+--prototyping
+--classes
+--abstraction scopes
+--lib
+
+gui
+--basic html elements
+--basic styles (inline and cascading stylesheets)
+--jQuery
+--selecting elements
+--getting/setting values (html(), val())
+--setting attributes (hide(), show(), attr(), style())
+
+next steps
+--ruby
+--gems
+--mysql

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript Calculator</title>
+    <script src="javascripts/jquery.min.js"></script>
+    <link href="stylesheets/application.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <table>
+			<thead>
+				<tr>
+					<th colspan=4>Javascript Calculator</th>
+				</tr>
+			</thead>
+			<tbody>
+	    	<tr>
+    			<td colspan=4 class="large"><input type="text" disabled="true" id="display"></input></td>
+	    	</tr>
+				<tr>
+					<td><!-- add a new button here --></td>
+					<td><!-- add a new button here --></td>
+					<td><!-- add a new button here --></td>
+					<td><button value="CLEAR">AC</button></td>
+				</tr>
+				<tr>
+					<td><button value="1">1</button></td>
+					<td><button value="2">2</button></td>
+					<td><button value="3">3</button></td>
+					<td><button value="ADD">+</button></td>
+				</tr>
+				<tr>
+					<td><button value="4">4</button></td>
+					<td><button value="5">5</button></td>
+					<td><button value="6">6</button></td>
+					<td><button value="SUBTRACT">-</button></td>
+				</tr>
+				<tr>
+					<td><button value="7">7</button></td>
+					<td><button value="8">8</button></td>
+					<td><button value="9">9</button></td>
+					<td><button value="MULTIPLY">*</button></td>
+				</tr>
+				<tr>
+					<td><button value="0">0</button></td>
+					<td><button value="DECIMAL">.</button></td>
+					<td><button value="EQUALS">=</button></td>
+					<td><button value="DIVIDE">/</button></td>
+				</tr>
+			</tbody>
+    </table>
+  </body>
+</html>
+<!-- application runs last -->
+<!-- ensures html is initialized when javascript runs -->
+<script src="javascripts/application.js"></script>
